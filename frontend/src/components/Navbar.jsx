@@ -17,7 +17,7 @@ export default function Navbar() {
             className="h-8 w-auto"
           />
           <p className="text-blue-900 font-bold text-xl">
-            Book <span className="text-blue-600">Sultan</span>
+            Book <span className="text-blue-600">Airline</span>
           </p>
         </div>
 

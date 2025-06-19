@@ -5,8 +5,7 @@ import { toast } from "react-toastify";
 import { FaPlane, FaTimes } from "react-icons/fa";
 
 export function FlightModal({ onClose }) {
-
-  const base_url = 'http://localhost:7000/api'
+  const base_url = "http://localhost:7000/api";
   const [flight, setFlight] = useState({
     flightName: "",
     flightNumber: "",
@@ -43,7 +42,8 @@ export function FlightModal({ onClose }) {
       toast.error(err?.response?.data?.message || "Server error");
     }
   };
-  
+
+
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50 p-4">
       <div className="bg-white w-full max-w-md rounded-lg shadow-xl overflow-hidden max-h-[90vh] overflow-y-auto">
