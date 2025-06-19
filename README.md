@@ -56,12 +56,3 @@ npm run dev
 * Backend: `http://localhost:7000/api/flight/all`
 
 Make sure both are running correctly and your MongoDB connection is active.
-
-```
-
----
-
-You can paste this directly into your `README.md` under a `## 🛠️ Setup Instructions` section or as a standalone file if that's all you need.
-
-Let me know if you'd like me to generate deployment instructions (e.g., using Vercel + Render) next!
-```
